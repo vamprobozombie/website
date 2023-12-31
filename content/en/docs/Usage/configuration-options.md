@@ -115,7 +115,7 @@ make it all uppercase. Ex: `ND_LOGLEVEL=debug`. See below for all available opti
 | LogLevel       | `ND_LOGLEVEL`    | Log level. Useful for troubleshooting. Possible values: `error`, `warn`, `info`, `debug`, `trace`                 | `"info"`                     |
 | Address        | `ND_ADDRESS`     | Address the server will bind to. Can be an IPv4 or IPv6. Also supports `unix:/path/to/file` for Unix socket files | `0.0.0.0` and `::` (all IPs) |
 | BaseUrl        | `ND_BASEURL`     | Base URL to configure Navidrome behind a proxy (examples: `/music`, `https://music.example.com`)                  | _Empty_                      |
-| Port           | `ND_PORT`        | HTTP port Navidrome will use                                                                                      | `4533`                       |
+| Port           | `ND_PORT`        | HTTP port Navidrome will use *Can be HTTPS with TLS flag                                                          | `4533`                       |
 
 ### Advanced configuration
 
